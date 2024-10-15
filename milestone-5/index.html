@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unique Path and Shareable Link</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>
+        <u>UNIQUE PATH AND SHAREABLE LINK</u>
+      </h1>
+
+      <form id="dynamicresume">
+        <fieldset id="section1">
+          <legend>
+            <h3>PERSONAL INFORMATION</h3>
+          </legend>
+
+          <label for="name"><b>Name:</b></label>
+          <input type="text" id="name" name="name" required />
+          <br /><br />
+
+          <label for="email"><b>Email Address:</b></label>
+          <input type="email" id="email" name="email" required />
+          <br /><br />
+
+          <label for="email"><b>LinkedIn ID / GitHub ID:</b></label>
+          <input type="url" id="id" name="id" required />
+          <br /><br />
+
+          <label for="contact"><b>Contact Number:</b></label>
+          <input type="tel" id="phone" name="phone" required />
+          <br /><br />
+
+          <label for="profilepicture"><b>Profile Picture:</b></label>
+          <input
+            type="file"
+            id="profilePicture"
+            name="profilepicture"
+            accept="image/*"
+            required
+          />
+        </fieldset>
+
+        <fieldset id="section2">
+          <legend>
+            <h3>OBJECTIVE</h3>
+          </legend>
+
+          <label for="objective"><b>Add your objective here:</b></label>
+          <textarea id="obj" name="objective" rows="4" required></textarea>
+        </fieldset>
+
+        <fieldset id="section3">
+          <legend>
+            <h3>EDUCATION</h3>
+          </legend>
+
+          <label for="education"><b>Add your education here:</b></label>
+          <textarea id="edu" name="education" rows="4" required></textarea>
+        </fieldset>
+
+        <fieldset id="section4">
+          <legend>
+            <h3>SKILLS</h3>
+          </legend>
+
+          <label for="skill"><b>Add your skills here:</b></label>
+          <textarea id="skill" name="skill" rows="4" required></textarea>
+        </fieldset>
+
+        <fieldset id="section5">
+          <legend>
+            <h3>EXPERIENCE</h3>
+          </legend>
+
+          <label for="experience"><b>Add your experiences here:</b></label>
+          <textarea id="exp" name="experience" rows="4" required></textarea>
+        </fieldset>
+
+        <br /><br /><br />
+
+        <button type="submit" id="resume-generate-btn">
+          Generate Resume
+        </button>
+        <br />
+      </form>
+    </div>
+    <br /><br />
+
+    <div id="resumeOutput"></div>
+    <br />
+    <hr />
+    <p id="edit-resume">
+      <b>Click on the specific section of the generated resume to edit it.</b>
+    </p>
+    <script src="script.js"></script>
+  </body>
+</html>
