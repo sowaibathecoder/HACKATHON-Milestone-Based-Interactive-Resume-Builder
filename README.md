@@ -29,7 +29,15 @@ Adding functionality to allow users to edit their resumes directly, ensuring fle
 Enabling the creation of unique shareable links for each resume, making it easy for users to share their resumes online.
 
 
+# Vercel Links
 
+https://milestone-2-gamma.vercel.app/
+
+https://milestone-3-sigma-eight.vercel.app/
+
+https://milestone-4-pi-gray.vercel.app/
+
+https://milestone-5-murex-two.vercel.app/
 
 ---
 
