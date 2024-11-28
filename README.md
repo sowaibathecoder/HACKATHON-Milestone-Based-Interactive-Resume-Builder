@@ -1,4 +1,4 @@
-🚀 # Hackathon: Milestone-Based Interactive Resume Builder
+# 🚀 Hackathon: Milestone-Based Interactive Resume Builder
 
 This project, Interactive Resume Builder, was developed as part of the GIAIC Hackathon. The primary objective of this project is to create a dynamic and user-friendly tool for building professional resumes. It is designed around five key milestones, each representing a crucial step in the development process.
 
