@@ -29,4 +29,4 @@ Adding functionality to allow users to edit their resumes directly, ensuring fle
 Enabling the creation of unique shareable links for each resume, making it easy for users to share their resumes online.
 
 
-This project not only fulfills the objectives of the hackathon but also demonstrates the potential of modern web technologies.It is a practical solution for anyone looking to create a professional resume efficiently.
+This project not only fulfills the objectives of the hackathon but also demonstrates the potential of modern web technologies.It is a practical solution for anyone looking to create a professional resume efficiently. 
