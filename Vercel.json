@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/milestone-2", "destination": "/milestone-2/index.html" },
+    { "source": "/milestone-3", "destination": "/milestone-3/index.html" },
+    { "source": "/milestone-4", "destination": "/milestone-4/index.html" },
+    { "source": "/milestone-5", "destination": "/milestone-5/index.html" }
+  ]
+}
